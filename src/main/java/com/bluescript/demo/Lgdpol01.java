@@ -116,7 +116,7 @@ public class Lgdpol01 {
 
         // }
         BeanUtils.copyProperties(payload, dfhcommarea);
-        log.warn("dfhcommarea:"+dfhcommarea);
+        log.warn("dfhcommarea:" + dfhcommarea);
         dfhcommarea.setCaReturnCode(00);
         if (eibcalen < wsCaHeaderLen) {
             dfhcommarea.setCaReturnCode(98); /* return */
